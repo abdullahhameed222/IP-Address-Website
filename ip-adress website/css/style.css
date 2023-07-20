@@ -11,12 +11,11 @@ body {
 .hero {
   background-image: url(../img/header--bg.png);
   background-size: cover;
-  padding-top: 33px;
-  height: 280px;
+  padding: 35px 0 125px 0;
   margin: 0 auto;
   text-align: center;
 }
-h1 {
+.website-name {
   font-size: 32px;
   line-height: 30px;
   color: #ffff;
@@ -55,7 +54,7 @@ h1 {
   background-color: #3f3f3f;
   cursor: pointer;
 }
-h2 {
+.ip-details-title {
   color: #969696;
   letter-spacing: 1.8px;
   font-size: 12px;
@@ -79,7 +78,7 @@ h2 {
 .ip {
   border-right: 1px solid #969696;
 }
-.ip p {
+.ip-details-content {
   font-size: 26px;
   margin-top: 13px;
   font-weight: 500;
